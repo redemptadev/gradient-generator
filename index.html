@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gradient Generator Pro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🎨 Gradient Generator Pro</h1>
+
+<div class="gradient-preview" id="gradientPreview"></div>
+
+<div class="controls">
+
+<select id="direction">
+<option value="45">45°</option>
+<option value="90">90°</option>
+<option value="135" selected>135°</option>
+<option value="180">180°</option>
+<option value="225">225°</option>
+<option value="270">270°</option>
+<option value="360">360°</option>
+</select>
+
+</div>
+
+<div class="code-box">
+<p id="gradientCode"></p>
+</div>
+
+<div class="buttons">
+<button id="generateBtn">Generate</button>
+<button id="copyBtn">Copy CSS</button>
+</div>
+
+<div class="buttons">
+<button id="saveBtn">❤️ Save</button>
+<button id="loadBtn">⭐ Load Favorite</button>
+</div>
+
+<h3>Recent Gradients</h3>
+
+<div id="history"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
